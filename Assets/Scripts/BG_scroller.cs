@@ -28,4 +28,5 @@ public class BG_scroller : MonoBehaviour {
 
 
 	}
+
 }
