@@ -12,7 +12,7 @@ public class BG_scroller : MonoBehaviour {
 	void Start () {
 		start_pos = transform.position;
 		scroll_speed = -0.05f;
-		tile_width = -13.0f;
+		tile_width = -17.29f;
 	}
 	
 	// Update is called once per frame
@@ -22,7 +22,7 @@ public class BG_scroller : MonoBehaviour {
 
 		Vector3 new_position = transform.position += new Vector3 (scroll_speed, 0.0f, 0.0f);
 		if (new_position.x < tile_width) {
-			new_position.x = 0.5f;
+			new_position.x = 2.58f;
 		}
 		transform.position = new_position;
 
